@@ -51,6 +51,7 @@ jobs:
         with:
           commit_message: "🔁 Updated SSH + backup"
           file_pattern: 'links/*.txt .backup/*.zip'
+          pull_mode: MERGE
 
       - name: ⏳ Keep VPS alive
         run: |
